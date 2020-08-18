@@ -1,0 +1,165 @@
+html{
+    font-size: 1em;
+    font-family: arial,sans-serif;
+}
+
+
+#navv{
+    padding: 0.5em 2em;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+li{
+    font-size: 0.8em;
+    font-family: arial,sans-serif;
+}
+
+#puntos{
+    margin: 1em;
+    opacity: 0.6;
+}
+
+a{
+    text-decoration: none;
+    margin: 0.5em;
+    color: rgba(0,0,0,0.87);
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#puntos{
+    width: 1.2em;
+    height: 1.2em;
+}
+
+#but-ses{
+    color: #fff;
+    font-weight: bold;
+    background: #4386f9;
+    border: 1px solid #4386f9;
+    border-radius: 2px;
+    padding: 0.6em 1.2em;
+    font-family: arial,sans-serif;
+}
+#but-ses:active{
+    background: #3168c7e8;
+}
+
+main{
+    margin: 4.5em 10em;
+}
+
+#main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    margin-bottom: -3.5em;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(119, 119, 119, 0.356);
+    padding: 0.5em 1.2em;
+    border-radius: 2em;
+    margin-bottom: 1.5em;
+}
+
+#search:hover{
+    box-shadow: 0em 0.1em 0.3em 0em rgba(0, 0, 0, 0.295);
+    border-color: rgba(223,225,229,0);
+}
+#search:focus{
+    box-shadow: 0em 0.1em 0.3em 0em rgba(0, 0, 0, 0.295);
+}
+
+#search-logo{
+    width: 1.2em;
+    opacity: 0.4;
+}
+
+input{
+    width: 35em;
+    border: none;
+    padding: 0.1em 1em;
+}
+
+#div-buttons{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.buttons-2{
+    background: #f3f3f3;
+    color: #5f6368;
+    border: 1px solid #f3f3f3;
+    cursor: pointer;
+    padding: 0.5em 1.5em;
+    margin: 0em 0.2em;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
+.buttons-2:hover{
+    color: #252629;
+    background: #f5f5f5;
+    border: 1px solid rgba(160, 160, 160, 0.897);
+    box-shadow: 0px 1px 2px 0px rgba(221, 221, 221, 0.63);
+}
+.buttons-2:active{
+    border: 1px solid cornflowerblue;
+}
+
+p{
+    margin: 2em;
+    font-size: 0.8em;
+}
+
+#idioma{
+    color: rgb(55, 43, 226);
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    padding-bottom: 1em;
+    width: 100vw;
+    padding: 1em 0em;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+    color: #838383; 
+}
+
+.alist{
+    color: #838383; 
+}
+
+
+
+
+
+
+
+@media (max-width: 800px){
+    main{
+        min-width: 340px;
+    }
+}
+@media (max-width: 750px){
+    footer{
+        font-size: 1em;
+    }
+}
